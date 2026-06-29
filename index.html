@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SavorQuest Corporation</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f4f6fb;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+  .card {
+    background: #fff;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 100%;
+    padding: 2rem 1.5rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 32px rgba(26,47,90,0.10);
+  }
+  .logo-wrap {
+    width: 90px; height: 90px;
+    border-radius: 50%;
+    background: #1A2F5A;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 0.9rem;
+    border: 3px solid #D4A017;
+  }
+  .logo-wrap span { color: #D4A017; font-size: 24px; font-weight: 700; letter-spacing: 1.5px; }
+  .biz-name { font-size: 19px; font-weight: 700; color: #1A2F5A; margin-bottom: 3px; }
+  .tagline { font-size: 11.5px; color: #888; margin-bottom: 4px; }
+  .certs { font-size: 10.5px; color: #aaa; margin-bottom: 1.4rem; }
+  .section-label { font-size: 10.5px; font-weight: 600; color: #aaa; letter-spacing: 1.2px; text-transform: uppercase; text-align: left; margin: 1.1rem 0 0.5rem; }
+  .btn-grid { display: grid; gap: 9px; }
+  .btn-grid.two { grid-template-columns: 1fr 1fr; }
+  .btn-grid.one { grid-template-columns: 1fr; }
+  .btn { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 13px 10px; border-radius: 11px; font-size: 14px; font-weight: 600; text-decoration: none; border: none; cursor: pointer; transition: filter 0.15s, transform 0.1s; }
+  .btn:hover { filter: brightness(0.92); }
+  .btn:active { transform: scale(0.97); }
+  .btn svg { flex-shrink: 0; }
+  .btn-call  { background: #1A2F5A; color: #D4A017; }
+  .btn-viber { background: #7360F2; color: #fff; }
+  .btn-wa    { background: #25D366; color: #fff; }
+  .btn-fb    { background: #1877F2; color: #fff; }
+  .btn-ig    { background: #E1306C; color: #fff; }
+  .btn-email { background: #D4A017; color: #1A2F5A; }
+  .divider { height: 1px; background: #eee; margin: 1.3rem 0 0; }
+  .footer { font-size: 10.5px; color: #ccc; margin-top: 1.1rem; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo-wrap"><span>SQC</span></div>
+  <p class="biz-name">SavorQuest Corporation</p>
+  <p class="tagline">Premium Cream Dory Fillet Supplier</p>
+  <p class="certs">FDA &nbsp;·&nbsp; BFAR &nbsp;·&nbsp; Halal &nbsp;·&nbsp; HACCP &nbsp;·&nbsp; IFS Certified</p>
+  <p class="section-label">Follow us</p>
+  <div class="btn-grid two">
+    <a class="btn btn-fb" href="https://www.facebook.com/SAVORQUEST/" target="_blank">
+      <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      Facebook
+    </a>
+    <a class="btn btn-ig" href="https://www.instagram.com/savorquestofficial/" target="_blank">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      Instagram
+    </a>
+  </div>
+  <p class="section-label">Message us</p>
+  <div class="btn-grid two">
+    <a class="btn btn-viber" href="viber://chat?number=%2B639173219443">
+      <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm4.93 13.777c-.207.583-.998 1.07-1.652 1.211-.44.095-.914.137-2.97-.638C9.63 15.216 7.5 12.24 7.34 12.03c-.16-.21-1.34-1.78-1.34-3.4 0-1.62.85-2.41 1.15-2.74.3-.33.653-.41.87-.41.216 0 .433 0 .622.01.2.01.47-.076.736.562.276.657.937 2.277.018 2.46-.184.039-.372.074-.543.157-.17.083-.37.22-.196.527.636 1.14 1.38 1.83 2.453 2.362.313.16.507.133.694-.08.187-.213.8-.932 1.014-1.253.214-.32.427-.267.714-.16.287.107 1.82.858 2.133 1.014.313.157.52.236.596.367.077.13.077.75-.13 1.333z"/></svg>
+      Viber
+    </a>
+    <a class="btn btn-wa" href="https://wa.me/639173219443" target="_blank">
+      <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+  <p class="section-label">Call us</p>
+  <div class="btn-grid one">
+    <a class="btn btn-call" href="tel:+639173219443">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.77a16 16 0 0 0 6.29 6.29l1.62-.89a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      0917 321 9443
+    </a>
+  </div>
+  <p class="section-label">Email us</p>
+  <div class="btn-grid one">
+    <a class="btn btn-email" href="mailto:sales@savorquestcorp.com">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      sales@savorquestcorp.com
+    </a>
+  </div>
+  <div class="divider"></div>
+  <p class="footer">Pure Value — You Get What You Pay For</p>
+</div>
+</body>
+</html>
